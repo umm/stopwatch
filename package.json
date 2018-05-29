@@ -1,6 +1,6 @@
 {
   "name": "@umm/unity_module_stopwatch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "StopWatch is time utility based on Unity frame updates",
   "homepage": "https://github.com/umm-projects/unity_module_stopwatch",
   "bugs": {
