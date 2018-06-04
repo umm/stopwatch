@@ -1,4 +1,4 @@
-# unity_module_stopwatch
+# stopwatch
 
 ## What
 
@@ -12,7 +12,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/unity_module_stopwatch#^1.0.0"
+yarn add "umm-projects/stopwatch#^1.0.0"
 ```
 
 ## Usage

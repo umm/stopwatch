@@ -37,32 +37,32 @@ namespace UnityModule
         float Time { get; }
 
         /// <summary>
-        /// Get current time sence it starts. 
+        /// Get current time sence it starts.
         /// </summary>
         /// <returns></returns>
-        UniRx.IObservable<float> TimeAsObservable { get; }
+        IObservable<float> TimeAsObservable { get; }
 
         /// <summary>
         /// Observable stream of IsPlaying flag.
         /// </summary>
-        UniRx.IObservable<bool> IsPlayingAsObservable { get; }
+        IObservable<bool> IsPlayingAsObservable { get; }
     }
 
     public class StopWatch : IStopWatch
     {
-        public UniRx.IObservable<float> TimeAsObservable => this.timeProperty;
+        public IObservable<float> TimeAsObservable => this.timeProperty;
 
         public float Time => this.timeProperty.Value;
 
         public bool IsPlaying => this.IsPlayingProperty.Value;
 
-        public UniRx.IObservable<bool> IsPlayingAsObservable => this.IsPlayingProperty;
+        public IObservable<bool> IsPlayingAsObservable => this.IsPlayingProperty;
 
         private SubjectProperty<bool> IsPlayingProperty = new SubjectProperty<bool>();
 
         private SubjectProperty<float> timeProperty { get; } = new SubjectProperty<float>();
 
-        private UniRx.IObservable<float> oscillatorObservable { get; set; }
+        private IObservable<float> oscillatorObservable { get; set; }
 
         private IDisposable subscription { get; set; }
 
@@ -77,7 +77,7 @@ namespace UnityModule
         /// StopWatch for counting game time.
         /// </summary>
         /// <param name="oscillatorObservable">oscillator to watch time. it should output the difference of time interval.</param>
-        public StopWatch(UniRx.IObservable<float> oscillatorObservable)
+        public StopWatch(IObservable<float> oscillatorObservable)
         {
             this.oscillatorObservable = oscillatorObservable;
         }
