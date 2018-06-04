@@ -1,0 +1,11 @@
+{
+    "name": "umm@stopwatch",
+    "references": [
+        "umm@extra_unirx",
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
