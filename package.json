@@ -2,9 +2,9 @@
   "name": "@umm/stopwatch",
   "version": "1.1.0",
   "description": "StopWatch is time utility based on Unity frame updates",
-  "homepage": "https://github.com/umm-projects/stopwatch",
+  "homepage": "https://github.com/umm/stopwatch",
   "bugs": {
-    "url": "https://github.com/umm-projects/stopwatch/issues"
+    "url": "https://github.com/umm/stopwatch/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -18,15 +18,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/stopwatch"
+    "url": "git@github.com:umm/stopwatch"
   },
   "files": [
     "Assets"
   ],
   "dependencies": {
-    "@umm/extra_unirx": "umm-projects/extra_unirx#^1.0.0",
-    "@umm/scripts": "umm-projects/scripts#^1.0.0",
-    "@umm/unirx": "umm-projects/unirx#^2.0.0"
+    "@umm/extra_unirx": "umm/extra_unirx#^1.0.0",
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/unirx": "umm/unirx#^2.0.0"
   },
   "devDependencies": {}
 }

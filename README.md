@@ -12,7 +12,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/stopwatch#^1.0.0"
+yarn add "umm/stopwatch#^1.0.0"
 ```
 
 ## Usage
