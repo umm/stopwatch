@@ -1,5 +1,5 @@
 {
-    "name": "Tests.EditMode",
+    "name": "umm@stopwatch-Tests-EditMode",
     "references": [
         "umm@stopwatch",
         "umm@extra_unirx",
