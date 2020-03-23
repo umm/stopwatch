@@ -1,11 +1,16 @@
 {
     "name": "umm@stopwatch",
     "references": [
-        "umm@extra_unirx",
-        "umm@unirx"
+        "GUID:fd54c2413c75f43a1a721bc960f2f443",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
