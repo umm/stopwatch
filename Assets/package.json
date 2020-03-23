@@ -1,0 +1,22 @@
+{
+  "name": "dev.upm-packages.stopwatch",
+  "displayName": "StopWatch",
+  "version": "1.2.0",
+  "unity": "2019.3",
+  "description": "StopWatch is time utility based on Unity frame updates",
+  "homepage": "https://github.com/umm/stopwatch",
+  "bugs": {
+    "url": "https://github.com/umm/stopwatch/issues"
+  },
+  "author": "Takuma Maruyama",
+  "license": "MIT",
+  "keywords": [],
+  "category": "",
+  "dependencies": {
+    "dev.upm-packages.extra-unirx": "1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/stopwatch"
+  }
+}
